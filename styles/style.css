@@ -212,16 +212,18 @@
 }
 
 .card__like-button {
-  margin: 25px 26px 25px 2px;
+  margin: 25px 26px 25px 6px;
   min-inline-size: 130px;
   min-block-size: 38px;
 }
 
 .main__button-save {
+  display: flex;
   flex-wrap: wrap;
   gap: 8px;
   margin: var(--end-margin, 0  auto 100px);
   padding-block: 15px;
+  padding-inline: 18px;
   background-color: #fff;
   min-block-size: 55px;
   inline-size: var(--button-save-width, clamp(19.125rem, 18.4868rem + 2.723vw, 20.9375rem));
