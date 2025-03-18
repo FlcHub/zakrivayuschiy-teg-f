@@ -3,7 +3,8 @@
   --main-font: 'Inter-Variable';
   --accent-font: 'PressStart2P';
   --accent-color: #000;
-  --button-content-color-hover: #fff;
+  --accent-color-difference: #fff;
+  --button-content-color-hover: #000;
   --button-content-color: #000;
   --heart-contour-color: #000;
   --heart-sparks-color: #f00;

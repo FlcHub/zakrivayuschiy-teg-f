@@ -132,7 +132,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid #000;
+  border: 2px solid var(--accent-color, #000);
   overflow: hidden;
   font-family: var(--accent-font), monospace;
   font-size: var(--button-font-size, 14px);
@@ -153,7 +153,7 @@
   content: '';
   position: absolute;
   inset: 0;
-  background-color: #000;
+  background-color: var(--accent-color, #000);
   transition: 0.5s transform ease-in-out;
   transform: translate(-100%, 0%);
 }
@@ -164,28 +164,9 @@
 }
 
 .button__text {
-  position: relative;
-  z-index: 1;
-  color: var(--button-content-color, #000);
+  color: var(--accent-color-difference, #fff);
   transition: 0.5s color ease-in-out;
-}
-
-.button:hover .button__text {
-  color: var(--button-content-color-hover, #fff);
-}
-
-.svg__diskette-save {
-  position: relative;
-  z-index: 1;
-}
-
-.diskette-save {
-  fill: var(--button-content-color, #000);
-  transition: 0.5s fill ease-in-out;
-}
-
-.button:hover .diskette-save {
-  fill: var(--button-content-hover, #fff);
+  mix-blend-mode: difference;
 }
 
 .like-icon-button {
@@ -222,16 +203,21 @@
   flex-wrap: wrap;
   gap: 8px;
   margin: var(--end-margin, 0  auto 100px);
-  padding-block: 15px;
   padding-inline: 18px;
+  padding-block: 15px;
   background-color: #fff;
   min-block-size: 55px;
   inline-size: var(--button-save-width, clamp(19.125rem, 18.4868rem + 2.723vw, 20.9375rem));
 }
 
-.main__button-save svg {
+.svg__diskette-save {
+  mix-blend-mode: difference;
   inline-size: var(--button-save-svg-size, clamp(1.3125rem, 1.1585rem + 0.6573vw, 1.75rem));
   block-size: var(--button-save-svg-size, clamp(1.3125rem, 1.1585rem + 0.6573vw, 1.75rem));
+}
+
+.diskette-save {
+  fill: var(--accent-color-difference, #fff);
 }
 
 .main__dialog-save[open] {
