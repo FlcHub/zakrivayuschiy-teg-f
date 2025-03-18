@@ -194,7 +194,6 @@
   align-items: center;
   border: 2px solid transparent;
   background-color: transparent;
-  transition: none;
   transition: 0.3s border-color ease-in-out;
   inline-size: 38px;
   block-size: 38px;
@@ -327,7 +326,7 @@
   transition: 0.3s fill linear;
 }
 
-.like-icon:hover .main-body  {
+.like-icon:hover .main-body {
   fill: var(--accent-color, #000);
   transition: 0.3s 0.05s fill linear;
 }
@@ -338,7 +337,7 @@
   transition: 0.3s fill linear;
 }
 
-.like-icon:active .main-body  {
+.like-icon:active .main-body {
   fill: var(--heart-fill-color, #f00);
   transition: 0.3s 0.05s fill linear;
 }
@@ -349,7 +348,7 @@
   transition: 0.3s fill linear;
 }
 
-.like-icon.is-liked .main-body  {
+.like-icon.is-liked .main-body {
   fill: var(--heart-fill-color, #f00);
   transition: 0.3s 0.05s fill linear;
 }
