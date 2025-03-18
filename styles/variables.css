@@ -1,1 +1,39 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --main-font: 'Inter-Variable';
+  --accent-font: 'PressStart2P';
+  --accent-color: #000;
+  --button-content-color-hover: #fff;
+  --button-content-color: #000;
+  --heart-contour-color: #000;
+  --heart-sparks-color: #f00;
+  --heart-fill-color: #f00;
+  --heart-core-color: #fff;
+  --main-margin: 0 auto;
+  --end-margin: 0 auto 100px;
+  --header-margin: 100px auto;
+  --main-font-weight-normal: 400;
+  --main-font-weight-bold: 700;
+  --page-background-image: repeating-linear-gradient(#d3d3d3 0 2px, transparent 2px 4px),
+      repeating-linear-gradient(90deg, #d3d3d3 0 2px, transparent 2px 4px),
+      linear-gradient(#e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
+  --header-section-width: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
+  --header-section-height: clamp(20.4375rem, 19.5352rem + 3.8498vw, 23rem);
+  --button-save-width: clamp(19.125rem, 18.4868rem + 2.723vw, 20.9375rem);
+  --button-save-height: calc(139px - clamp(3.4375rem, 2.7993rem + 2.723vw, 5.25rem));
+  --dialog-width: clamp(21.3125rem, 21.0484rem + 1.1268vw, 22.0625rem);
+  --dialog-content-width: clamp(16.0625rem, 15.2702rem + 3.3803vw, 18.3125rem);
+  --main-font-size: 18px;
+  --h1-font-size: clamp(3.0625rem, 1.9087rem + 4.9231vw, 4.0625rem);
+  --h2-font-size: 18px;
+  --button-font-size: 14px;
+  --image-label-font-size: 14px;
+  --main__dialog-font-size: 14px;
+  --header-desc-font-size: clamp(0.875rem, 0.226rem + 2.7692vw, 1.4375rem);
+  --header-accent-letter-font-size: clamp(0.5625rem, -0.0865rem + 2.7692vw, 1.125rem);
+  --label-padding-right: clamp(0.8125rem, 0.5484rem + 1.1268vw, 1.5625rem);
+  --h2-gap-top: calc(7px - clamp(0.1875rem, 0.1655rem + 0.0939vw, 0.25rem));
+  --h2-gap-bottom: calc(9px - clamp(0.1875rem, 0.1215rem + 0.2817vw, 0.375rem));
+  --p-text-line-height: clamp(1.324rem, 1.3166rem + 0.0315vw, 1.345rem);
+  --button-save-svg-size: calc(1.3125rem + 1.75rem - clamp(1.3125rem, 1.1585rem + 0.6573vw, 1.75rem));
+}
