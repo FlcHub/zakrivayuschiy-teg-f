@@ -237,7 +237,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 12px;
+  gap: 20px;
   line-height: 1.5;
   text-transform: uppercase;
   inline-size: var(--dialog-content-width, clamp(16.0625rem, 14.4554rem + 6.8571vw, 18.3125rem));
