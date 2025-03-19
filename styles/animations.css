@@ -20,7 +20,7 @@
   }
 }
 
-@keyframes blink {
+@keyframes fade-in-out {
   from {
     opacity: 0;
   }
